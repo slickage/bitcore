@@ -33,14 +33,14 @@ exports.livenet = {
 
 exports.testnet = {
   name: 'testnet',
-  magic: hex('0b110907'),
+  magic: hex('fabfb5da'),
   addressVersion: 0x6f,
   privKeyVersion: 239,
   P2SHVersion: 196,
   hkeyPublicVersion: 0x043587cf,
   hkeyPrivateVersion: 0x04358394,
   genesisBlock: {
-    hash: hex('43497FD7F826957108F4A30FD9CEC3AEBA79972084E90EAD01EA330900000000'),
+    hash: hex('06226E46111A0B59CAAF126043EB5BBF28C34F3A5E332A1FC7B2B73CF188910F'),
     merkle_root: hex('3BA3EDFD7A7B12B27AC72C3E67768F617FC81BC3888A51323A9FB8AA4B1E5E4A'),
     height: 0,
     nonce: 414098458,
